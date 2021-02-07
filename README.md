@@ -3,5 +3,4 @@ Created as part of 'The Odin Project'.
 
 ### To-do
 - XD interface design
----
 - Development

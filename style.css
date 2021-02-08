@@ -1,0 +1,39 @@
+@font-face {
+font-family: 'HermanoAlto';
+src: url('assets/fonts/HermanoAltoRound.woff2') format('woff2'),
+url('assets/fonts/HermanoAltoRound.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+/* Troubleshooting
+* {
+outline: 1px solid red;
+}
+*/
+body{
+background-color:#2950D8;
+}
+a, a:visited{
+text-decoration: none;
+color: #7C9CF2;
+}
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin:2.5em 5em;
+}
+#credit{
+font-size: 0.8em;
+font-family:Helvetica,Arial, sans-serif;
+color: #7C9CF2;
+}
+#credit-link{
+text-decoration: underline;
+}
+#credit-link:hover{
+color: #a7bcf7;
+}
+@media(max-width:600px){
+
+}

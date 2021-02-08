@@ -12,6 +12,7 @@ outline: 1px solid red;
 */
 body{
 background-color:#2950D8;
+color:white;
 }
 a, a:visited{
 text-decoration: none;
@@ -34,6 +35,47 @@ text-decoration: underline;
 #credit-link:hover{
 color: #a7bcf7;
 }
+#card-container{
+margin:8em;
+display:grid;
+grid-template-columns: repeat(3, 213px);
+grid-template-rows: 225px;
+column-gap: 6em;
+justify-content: center;
+}
+#card-container > div{
+border-radius: 15px;
+border: 1px solid #7193eb;
+flex-wrap: wrap;
+display: flex;
+flex-flow: column;
+justify-content: center;
+text-align: center;
+}
+#card-container > div:hover{
+background: #0c2e85;
+border: 1px solid #00dcda;
+cursor: pointer;
+}
+.card-title{
+font-family: 'HermanoAlto',Helvetica,Arial,sans-serif;
+font-size: 1.8em;
+padding: 0.7em 0;
+}
 @media(max-width:600px){
-
+header{
+flex-direction: column;
+margin: 2.5em 2.5em;
+}
+#credit{
+padding-top: 0.5em;
+}
+}
+@media(max-width:425px){
+header{
+margin: 2.5em 1em;
+}
+#credit{
+font-size: 0.7em;
+}
 }
